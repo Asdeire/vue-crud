@@ -1,0 +1,33 @@
+tr {
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: #f9f9f9;
+    }
+
+    button {
+        margin-right: 5px;
+        padding: 5px 10px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    button:first-child {
+        background-color: #3498db;
+        color: white;
+
+        &:hover {
+            background-color: #2980b9;
+        }
+    }
+
+    button:last-child {
+        margin-top: 5px;
+        background-color: #e74c3c;
+        color: white;
+
+        &:hover {
+            background-color: #c0392b;
+        }
+    }
+}
